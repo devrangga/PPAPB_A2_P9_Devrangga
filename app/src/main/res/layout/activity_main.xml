@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="32dp"
+        android:layout_marginTop="168dp"
+        android:orientation="vertical"
+        >
+        <EditText
+            android:id="@+id/loginUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_edit_text"
+            android:drawableLeft="@drawable/baseline_person_24"
+            android:drawablePadding="16dp"
+            android:hint="Username"
+            android:fontFamily="@font/poppinsmedium"
+            android:textColor="@color/dark"
+            android:textColorHint="@color/medium"
+            android:paddingHorizontal="24dp"
+            android:paddingVertical="16dp"
+            android:layout_marginBottom="16dp"
+            />
+        <EditText
+            android:id="@+id/loginPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_edit_text"
+            android:drawableLeft="@drawable/baseline_lock_24"
+            android:drawablePadding="16dp"
+            android:hint="Pasword"
+            android:inputType="textPassword"
+            android:fontFamily="@font/poppinsmedium"
+            android:textColor="@color/dark"
+            android:textColorHint="@color/medium"
+            android:paddingHorizontal="24dp"
+            android:paddingVertical="16dp"
+            android:layout_marginBottom="16dp"
+            />
+
+        <Button
+            android:id="@+id/loginBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:backgroundTint="@color/primary"
+            android:fontFamily="@font/poppinsmedium"
+            android:paddingVertical="16dp"
+            android:textSize="16dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

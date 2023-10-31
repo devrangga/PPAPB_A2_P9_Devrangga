@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">UTS PPAPB Dev</string>
+    <array name="places">
+        <item>Cilincink</item>
+        <item>Futurisa</item>
+        <item>Zabirah</item>
+        <item>Howkiya</item>
+        <item>Mobara</item>
+    </array>
+    <array name="type">
+        <item>Royal Diamond</item>
+        <item>Golden Gem</item>
+        <item>Silver Bullet</item>
+    </array>
+</resources>

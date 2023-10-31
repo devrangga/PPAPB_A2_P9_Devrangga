@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityOrderSummary"
+    android:padding="32dp"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order Summary"
+        android:fontFamily="@font/poppinsextrabold"
+        android:textSize="24dp"
+        android:drawableLeft="@drawable/baseline_arrow_back_24"
+        android:drawablePadding="24dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/imgone"
+        android:scaleType="fitXY"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/summaryTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Title"
+                android:fontFamily="@font/poppinsextrabold"
+                android:textColor="@color/dark"
+                android:textSize="24dp"/>
+            <TextView
+                android:id="@+id/summaryPlace"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Place"
+                android:fontFamily="@font/poppinsmedium"
+                android:textColor="@color/dark"
+                android:textSize="18dp"/>
+            <TextView
+                android:id="@+id/summaryDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date"
+                android:fontFamily="@font/poppinsmedium"
+                android:textColor="@color/dark"
+                android:textSize="18dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order Number"
+        android:fontFamily="@font/poppinsmedium"
+        android:textColor="@color/medium"
+        android:textSize="18dp"/>
+    <TextView
+        android:layout_marginTop="-6dp"
+        android:id="@+id/summaryOrderNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="32909284390"
+        android:fontFamily="@font/poppinsmedium"
+        android:textColor="@color/dark"
+        android:textSize="24dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Type"
+        android:fontFamily="@font/poppinsmedium"
+        android:textColor="@color/medium"
+        android:textSize="18dp"/>
+    <TextView
+        android:layout_marginTop="-6dp"
+        android:id="@+id/summaryOrderType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Diamond"
+        android:fontFamily="@font/poppinsmedium"
+        android:textColor="@color/dark"
+        android:textSize="24dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Payment Method"
+        android:fontFamily="@font/poppinsmedium"
+        android:textColor="@color/medium"
+        android:textSize="18dp"/>
+    <TextView
+        android:layout_marginTop="-6dp"
+        android:id="@+id/summaryPaymentMethod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Golden Gems"
+        android:fontFamily="@font/poppinsmedium"
+        android:textColor="@color/dark"
+        android:textSize="24dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Payment Type"
+        android:fontFamily="@font/poppinsmedium"
+        android:textColor="@color/medium"
+        android:textSize="18dp"/>
+    <TextView
+        android:layout_marginTop="-6dp"
+        android:id="@+id/summaryPaymentType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crown Lilipad"
+        android:fontFamily="@font/poppinsmedium"
+        android:textColor="@color/dark"
+        android:textSize="24dp"
+        />
+
+
+</LinearLayout>
